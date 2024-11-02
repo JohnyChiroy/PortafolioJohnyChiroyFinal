@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudios</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+</head>
+
+<body>
+    {{>header}}
+    {{>nadvar}}
+
+    {{!-- contenido principal --}}
+    <main>
+        <div class="estudios">
+
+            <div class="habilidad">
+                <h3>Ingeniería en Sistemas de la Información y Ciencias de la Computación</h3>
+                <a href="https://umg.edu.gt/ingenieria/sistemas" target="_blank"><img src="/img/Logo UMG.png" alt="umg"
+                        title="Ver carrera en UMG" class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Actualmente, cursando el octavo semestre de Ingeniería en Sistemas de la Información y Ciencias de
+                    la
+                    Computación, en la Universidad Mariano Gálvez de Guatemala.
+                </p>
+            </div>
+            <div class="habilidad">
+                <h3>Curso SQL Server</h3>
+                <a href="https://www.udemy.com/course/master-sql-server/" target="_blank"><img src="/img/curso sql.png"
+                        alt=".SQL Server" title="Ver curso en Udemy" class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Bases de Datos, Consultas, Funciones, Tablas y Permisos.
+                    Diseño y Programación de Base de Datos Relacional SQL.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="50">50%</div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <h3>Curso Desarrollo Web</h3>
+                <a href="https://www.udemy.com/course/fundamentos-de-programacion-con-javascript/" target="_blank"><img
+                        src="/img/curso dw.png" alt="Desarrollo Web" title="Ver curso en Udemy"
+                        class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Aprendizaje de los principales lenguajes que dominan
+                    internet: JavaScript, HTML5 y CSS3.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="20">20%</div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <h3>Curso Mikrotik</h3>
+                <a href="https://www.udemy.com/course/mikrotik-de-principiante-a-experto/" target="_blank"><img
+                        src="/img/curso mk.png" alt="SQL Server" title="Ver curso en Udemy" class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Configuración y aprendizaje de las diferentes
+                    funcionalidades de los routers Mikrotik.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="50">50%</div>
+                </div>
+            </div>
+
+            <div class="habilidad">
+                <h3>Curso OWASP TOP 10 Web</h3>
+                <a href="https://www.udemy.com/share/1058H83@avuN9rfCsnUhfzptBwuobXVkG7VRbbFiI927M8Ya_sgUdxg5y6PmXhWrX5Fi_BEL_w==/"
+                    target="_blank"><img src="/img/curso owasp.png" alt="OWASP" title="Ver curso en Udemy"
+                        class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Las 10 mayores vulnerabilidades de las aplicaciones web
+                    de acuerdo a su impacto y criticidad en base a los estudios de OWASP.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="100">100%</div>
+                </div>
+            </div>
+
+            <div class="habilidad">
+                <h3>Curso C#</h3>
+                <a href="https://www.udemy.com/share/101JW63@n-tiTsrewAStlElbRopTm4XgbbEYnQFsiDAY80kBC6kcS4U3VXSbBP5xQyiT-BXjHg==/"
+                    target="_blank"><img src="/img/curso csharp.png" alt="C#" title="Ver curso en Udemy"
+                        class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Creación de clases, arreglos, colecciones, matrices,
+                    hacer uso de ciclos y métodos, depurar tus programas. Técnicas de resolución de problemas y análisis
+                    para la programación en C#.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="10">10%</div>
+                </div>
+            </div>
+
+            <div class="habilidad">
+                <h3>ASP.NET Core MVC 6</h3>
+                <a href="https://www.udemy.com/share/105uwY3@YHZMu-AtaqO1fpHHNc_zf-W3lbn-ZD-0hggcE87jKp881-Vt9pcqUYnbadK0SHCHQA==/"
+                    target="_blank"><img src="/img/curso asp.png" alt="ASP" title="Ver curso en Udemy"
+                        class="imagen-estudio"></a>
+                <p class="descripcion-estudio">
+                    Curso en línea, en la plataforma de Udemy. Desarrollo de proyectos web con MVC, comunicación con
+                    base de datos de SQL Server usando Dapper y publicación de aplicaciones de MVC en Azure y IIS.
+                </p>
+                {{!-- progreso --}}
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" data-percentage="15">15%</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    {{>footer}}
+
+    <script src="/js/progreso.js"></script>
+
+</body>
+
+</html>
